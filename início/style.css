@@ -8,7 +8,7 @@ body{
 
 }
 .total{
-  height: 740px;
+  height: 850px;
   background-color: rgb(47, 171, 209);
 
 }
@@ -39,7 +39,6 @@ h2{
   overflow: hidden;
   background-color: #215A7B;
 }
-
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -51,7 +50,6 @@ h2{
   font-weight: 400;
   font-style: normal;
 }
-
 .topnav a:hover {
   background-color: #ddd;
   color: black;
@@ -61,6 +59,9 @@ h2{
   background-color: #123244;
   color: white;
   
+}
+.topnav a.eu {
+  float: right; /* Elemento à direita */
 }
 a.active:hover{
   background-color: #ddd;
@@ -90,12 +91,12 @@ a.active:hover{
 }
 .capas{
   margin-top: 15%;
-  margin-left: 18%;
   font-family: "Archivo Black", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 40px;
   color: #051924;
+  text-align: center;
 }
 #hum:visited {
   color: #051924;
@@ -108,7 +109,6 @@ a.active:hover{
 #hum{
   color: #051924;
   text-decoration: none;
-  margin-left: -5%;
   background-color: #ddd;
   border-radius: 20px;
   padding: 5px;
@@ -125,7 +125,6 @@ a.active:hover{
   background-color: #ddd;
   border-radius: 20px;
   padding: 5px;
-  margin-top: 50%;
   color: #051924;
   text-decoration: none;
   border: 20px;
@@ -139,7 +138,6 @@ a.active:hover{
   text-decoration: none;
 }
 #lin{
-  margin-left: 5%;
   color: #051924;
   text-decoration: none;
   background-color: #ddd;
@@ -155,7 +153,6 @@ a.active:hover{
   text-decoration: none;
 }
 #mat{
-  margin-left: 5%;
   color: #051924;
   text-decoration: none;
   background-color: #ddd;
@@ -171,7 +168,6 @@ a.active:hover{
   text-decoration: none;
 }
 #nat{
-  margin-left: 6%;
   color: #051924;
   text-decoration: none;
   background-color: #ddd;
@@ -199,3 +195,17 @@ a.active:hover{
 #bodyM{
   background-color: rgb(47, 171, 209);
 }
+.img-croacia{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 5%;
+  background-color: aliceblue;
+  color: black;
+  padding: 20px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  width: auto; /* Ajuste para "auto" */
+}
+
