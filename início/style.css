@@ -3,7 +3,14 @@
 body{
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #1c4963;
+  color: white;
+
+}
+.total{
+  height: 740px;
   background-color: rgb(47, 171, 209);
+
 }
 h1{
   margin-bottom:0;
@@ -14,10 +21,13 @@ h2{
   margin-bottom: 20px;
 }
 #texPort{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: 50px;
   color: #f2f2f2;
   margin-left: 20px;
-  margin-top: 120px;
+  margin-top: 0px;
   font-family: "Archivo Black", sans-serif;
   font-weight: 100;
   font-style: normal;
@@ -99,6 +109,9 @@ a.active:hover{
   color: #051924;
   text-decoration: none;
   margin-left: -5%;
+  background-color: #ddd;
+  border-radius: 20px;
+  padding: 5px;
 }
 #tec:visited {
   color: #051924;
@@ -109,9 +122,13 @@ a.active:hover{
   text-decoration: none;
 }
 #tec{
+  background-color: #ddd;
+  border-radius: 20px;
+  padding: 5px;
   margin-top: 50%;
   color: #051924;
   text-decoration: none;
+  border: 20px;
 }
 #lin:visited {
   color: #051924;
@@ -125,6 +142,9 @@ a.active:hover{
   margin-left: 5%;
   color: #051924;
   text-decoration: none;
+  background-color: #ddd;
+  border-radius: 20px;
+  padding: 5px;
 }
 #mat:visited {
   color: #051924;
@@ -138,6 +158,9 @@ a.active:hover{
   margin-left: 5%;
   color: #051924;
   text-decoration: none;
+  background-color: #ddd;
+  border-radius: 20px;
+  padding: 5px;
 }
 #nat:visited {
   color: #051924;
@@ -151,4 +174,28 @@ a.active:hover{
   margin-left: 6%;
   color: #051924;
   text-decoration: none;
+  background-color: #ddd;
+  border-radius: 20px;
+  padding: 5px;
+}
+#SobreMim{
+  width: 80%;
+  border-top: 5px solid #1c4963;
+  margin-top: 0px;
+  margin-left: 20px;
+}
+#sobre{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 30px;
+}
+#txtSobre{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 15px;
+}
+#bodyM{
+  background-color: rgb(47, 171, 209);
 }
