@@ -68,7 +68,6 @@ a.active:hover{
   color: black;
 }
 #antPorts{
-  margin-left: 20px;
   font-size: 17px;
   font-weight: bolder;
   text-decoration: none;
@@ -109,7 +108,7 @@ a.active:hover{
 #hum{
   color: #051924;
   text-decoration: none;
-  background-color: #ddd;
+  background-color: #ffffff;
   border-radius: 20px;
   padding: 5px;
 }
@@ -122,7 +121,7 @@ a.active:hover{
   text-decoration: none;
 }
 #tec{
-  background-color: #ddd;
+  background-color: white;
   border-radius: 20px;
   padding: 5px;
   color: #051924;
@@ -140,7 +139,7 @@ a.active:hover{
 #lin{
   color: #051924;
   text-decoration: none;
-  background-color: #ddd;
+  background-color: white;
   border-radius: 20px;
   padding: 5px;
 }
@@ -155,22 +154,22 @@ a.active:hover{
 #mat{
   color: #051924;
   text-decoration: none;
-  background-color: #ddd;
+  background-color: white;
   border-radius: 20px;
   padding: 5px;
 }
-#nat:visited {
+#nat:visited{
   color: #051924;
   text-decoration: none;
 }
-#nat:hover {
+#nat:hover{
   color: #1c4963;
   text-decoration: none;
 }
 #nat{
   color: #051924;
   text-decoration: none;
-  background-color: #ddd;
+  background-color: white;
   border-radius: 20px;
   padding: 5px;
 }
@@ -190,22 +189,126 @@ a.active:hover{
   font-family: "Archivo Black", sans-serif;
   font-weight: 100;
   font-style: normal;
-  font-size: 15px;
+  font-size: 18px;
 }
 #bodyM{
   background-color: rgb(47, 171, 209);
 }
 .img-croacia{
+  background-color: white;
+  color: black;
+  padding: 10px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  width: 500px;
+  height: auto;
+  margin-bottom: 42px; 
+}
+#imgC{
+  width: 300px;
+  height: 200px;
+  border: 4px solid #000;
+  border-radius: 10px;
+  margin-top: 8px;
+}
+#tCro{
+  font-size: 17px;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #051924
+}
+#tCro.hover{
+  text-decoration: underline;
+}
+.img-marrocos{
+  background-color: white;
+  color: black;
+  padding: 10px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  width: 500px;
+  height: auto;
+  margin-left: 5%;
+}
+.img-1917{
+  background-color: white;
+  color: black;
+  padding: 10px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  width: 500px;
+  height: auto;
+  margin-left: 36%;
+  margin-top: 2%;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  text-align: center;
+}
+.CroMar{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 100;
+  font-style: normal;
   margin-top: 5%;
-  background-color: aliceblue;
-  color: black;
-  padding: 20px;
-  padding-bottom: 10px;
-  border-radius: 20px;
-  width: auto; /* Ajuste para "auto" */
+  margin-left: 21%;
 }
-
+.triH{
+  margin-top: 15%;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+}
+.triH1:visited {
+  color: #051924;
+  text-decoration: none;
+}
+.trih1:hover {
+  color: #1c4963;
+  text-decoration: none;
+}
+.triH1{
+  color: #051924;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  border: 20px;
+}
+.triH2:visited {
+  color: #051924;
+  text-decoration: none;
+}
+.trih2:hover {
+  color: #1c4963;
+  text-decoration: none;
+}
+.triH2{
+  color: #051924;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+}
+.triH3:visited {
+  color: #051924;
+  text-decoration: none;
+}
+.trih3:hover {
+  color: #1c4963;
+  text-decoration: none;
+}
+.triH3{
+  color: #051924;
+  text-decoration: none;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+  border: 20px;
+  margin-left: 1%;
+}
