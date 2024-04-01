@@ -8,9 +8,11 @@ body{
 
 }
 .total{
-  height: 42  em;
   background-color: rgb(47, 171, 209);
-
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 h1{
   margin-bottom:0;
@@ -175,9 +177,9 @@ a.active:hover{
 }
 #SobreMim{
   width: 80%;
-  border-top: 5px solid #1c4963;
-  margin-top: 0px;
-  margin-left: 20px;
+  border-top: 1% solid #1c4963;
+  margin-top: 0%;
+  margin-left: 1%;
 }
 #sobre{
   font-family: "Archivo Black", sans-serif;
@@ -242,7 +244,7 @@ a.active:hover{
   width: 80%;
   margin: auto;
   height: 550px;
-  padding-bottom: 40%;
+  padding-bottom: auto;
  
 }
 .triH{
