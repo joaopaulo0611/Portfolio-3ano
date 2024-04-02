@@ -196,18 +196,29 @@ a.active:hover{
 #bodyM{
   background-color: rgb(47, 171, 209);
 }
-.img-croacia{
+.img-canaa{
   background-color: white;
   display: flex;
- 
   flex-direction: column;
-  margin-bottom: 20px;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
   color: black;
   padding: 5px;
   border-radius: 20px;
   width: 40%;
   height: 90%;
-  
+}
+.img-croacia{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5vh;
+  margin-top: 5vh;
+  color: black;
+  padding: 5px;
+  border-radius: 20px;
+  width: 40%;
+  height: 90%;
 }
 .img-croacia p {
   font-weight: 100;
