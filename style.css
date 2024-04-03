@@ -206,7 +206,8 @@ a.active:hover{
   padding: 5px;
   border-radius: 20px;
   width: 40%;
-  height: 90%;
+  max-height: fit-content;
+  min-height: 90%;
 }
 .img-croacia{
   background-color: white;
@@ -241,7 +242,6 @@ a.active:hover{
 }
 
 .CroMar{
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
