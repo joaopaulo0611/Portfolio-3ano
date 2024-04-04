@@ -228,7 +228,7 @@ a.active:hover{
   margin-top: 5vh;
   color: black;
   padding: 2vh;
-  padding-bottom: 8vh;
+  padding-bottom: 10vh;
   border-radius: 3vh;
   width: 55vh;
   height: 100%;
@@ -250,6 +250,9 @@ a.active:hover{
 }
 .img-croacia p{
   font-size: 1svi;
+  margin-block-start: 0em;
+  margin-top: 0;
+  margin-block: 0;
 } 
 #imgC{
   width: 32vh;
