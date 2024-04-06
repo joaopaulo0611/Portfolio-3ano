@@ -50,7 +50,7 @@ h2{
   text-align: center;
   padding: 3vh 3vh;
   text-decoration: none;
-  font-size: 2vh;
+  font-size: 1svi;
   font-family: "Archivo Black", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -76,10 +76,10 @@ a.active:hover{
   font-size: 2vh;
   font-weight: bolder;
   text-decoration: none;
-  color: #051924
+  color: white
 }
 #ata:visited{
-  color: #051924;
+  color: white;
   text-decoration: none;
 }
 #ata:hover{
@@ -261,6 +261,13 @@ a.active:hover{
   border-radius: 1vh;
   margin-top: 1vh;
 }
+#imgC1{
+  width: 52vh;
+  height: 30vh;
+  border: 0.2svi solid #000;
+  border-radius: 1vh;
+  margin-top: 1vh;
+}
 #tCro{
   font-size: 1.2svi;
   font-weight: bolder;
@@ -270,7 +277,6 @@ a.active:hover{
 #tCro.hover{
   text-decoration: underline;
 }
-
 .CroMar{
   display: flex;
   flex-direction: row;
@@ -286,7 +292,36 @@ a.active:hover{
   margin: auto;
   height: 50vh;
   padding-bottom: auto;
- 
+}
+.CroSpr{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  font-style: normal;
+  padding-top: 5vh;
+  width: 80%;
+  margin: auto;
+  height: 32vh;
+  padding-bottom: auto;
+}
+.tSpr{
+  font-size: 1svi;
+  font-weight: bolder;
+  text-decoration: none;
+  color: #051924
+}
+.triH1:visited {
+  color: #051924;
+  text-decoration: none;
+}
+.triH1:hover {
+  color: #1c4963;
+  text-decoration: none;
 }
 .triH{
   margin-top: 15%;
@@ -373,13 +408,28 @@ a.active:hover{
   max-width: 100%;
   border-radius: 2vh;
 }
+.CroangM{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  font-style: normal;
+  padding-top: 5vh;
+  width: 80%;
+  margin: auto;
+  height: 50vh;
+}
 .videoM{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 2vh;
 }
-iframe{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} 
+
