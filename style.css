@@ -432,4 +432,58 @@ a.active:hover{
   justify-content: center;
   border-radius: 2vh;
 }
-
+.linha{
+  border: 0;
+  width: 90%;
+  height: 3px;
+  background-color: white;
+}
+.tituloBD{
+  margin-left: 5%;
+  font-family: "Archivo Black", sans-serif;
+}
+.bodyBD{
+  padding-top: 2%; 
+}
+.bodyBD2{
+  padding-top: 8%; 
+}
+.bodyBD3{
+  padding-top: 15%; 
+}
+.triHT{
+  margin-top: 10%;
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5vh;
+  text-align: center;
+}
+.CroSpr1{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 2;
+  text-align: center;
+  font-family: "Archivo Black", sans-serif;
+  font-style: normal;
+  padding-top: 0.1svi;
+  width: 90%;
+  margin: auto;
+  height: 32vh;
+  gap: 20px;
+  padding-bottom: auto;
+}
+.img-canaa1{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6vh;
+  margin-top: 5vh;
+  color: black;
+  padding: 2vh;
+  padding-bottom: 10vh;
+  border-radius: 3vh;
+  width: 55vh;
+  height: 100%;
+}
