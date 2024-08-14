@@ -443,13 +443,13 @@ a.active:hover{
   font-family: "Archivo Black", sans-serif;
 }
 .bodyBD{
-  padding-top: 2%; 
+  padding-top: 2vh; 
 }
 .bodyBD2{
-  padding-top: 8%; 
+  padding-top: 8vh; 
 }
 .bodyBD3{
-  padding-top: 35%; 
+  padding-top: 70vh;
 }
 .triHT{
   margin-top: 10%;
