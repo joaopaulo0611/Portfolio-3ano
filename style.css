@@ -449,7 +449,7 @@ a.active:hover{
   padding-top: 8vh; 
 }
 .bodyBD3{
-  padding-top: 70vh;
+  padding-top: 30vh;
 }
 .bodyBD3-implantacao{
   padding-top: 5vh;
@@ -513,11 +513,33 @@ a.active:hover{
   display: flex;
   flex-direction: column;
   margin-bottom: 6vh;
-  margin-top: -5vh;
+  margin-top: 5vh;
   color: black;
   padding: 2vh;
   padding-bottom: 10vh;
   border-radius: 3vh;
   width: 55vh;
   height: 100%;
+}
+.bodyBD2-programacaoAPP{
+  padding-top: 5vh;
+}
+.img-canaaSA{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6vh;
+  margin-top: 5vh;
+  color: black;
+  padding: 2vh;
+  padding-bottom: 10vh;
+  border-radius: 3vh;
+  width: 55vh;
+  height: 100%;
+}
+.bodyBD3-modelagem{
+  margin-top: 25vh;
+}
+.bodyBD3-desenvolvimento{
+  margin-top: 25vh;
 }
