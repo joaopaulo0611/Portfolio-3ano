@@ -236,6 +236,19 @@ a.active:hover{
 .img-canaa p{
   font-size: 1svi;
 }
+.img-canaa2{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6vh;
+  margin-top: 5vh;
+  color: black;
+  padding: 2vh;
+  padding-bottom: 10vh;
+  border-radius: 3vh;
+  width: 45vh;
+  height: 20vh;
+}
 .img-croacia{
   background-color: white;
   display: flex;
@@ -262,8 +275,8 @@ a.active:hover{
   margin-top: 1vh;
 }
 #imgC1{
-  width: 52vh;
-  height: 30vh;
+  width: 40vh;
+  height: 20vh;
   border: 0.2svi solid #000;
   border-radius: 1vh;
   margin-top: 1vh;
@@ -306,7 +319,7 @@ a.active:hover{
   padding-top: 5vh;
   width: 80%;
   margin: auto;
-  height: 32vh;
+  height: 100%;
   padding-bottom: auto;
 }
 .tSpr{
@@ -435,11 +448,13 @@ a.active:hover{
 .linha{
   border: 0;
   width: 90%;
-  height: 3px;
+  height: 0.5vh;
+  margin-top: 1vh;
   background-color: white;
 }
 .tituloBD{
   margin-left: 5%;
+  font-size: 2vh;
   font-family: "Archivo Black", sans-serif;
 }
 .bodyBD{
@@ -449,7 +464,7 @@ a.active:hover{
   padding-top: 8vh; 
 }
 .bodyBD3{
-  padding-top: 30vh;
+  padding-top: 20vh;
 }
 .bodyBD3-implantacao{
   padding-top: 5vh;
@@ -518,8 +533,8 @@ a.active:hover{
   padding: 2vh;
   padding-bottom: 10vh;
   border-radius: 3vh;
-  width: 55vh;
-  height: 100%;
+  width: 45vh;
+  height: 20vh;
 }
 .bodyBD2-programacaoAPP{
   padding-top: 5vh;
@@ -534,12 +549,12 @@ a.active:hover{
   padding: 2vh;
   padding-bottom: 10vh;
   border-radius: 3vh;
-  width: 55vh;
-  height: 100%;
+  width: 45vh;
+  height: 20vh;
 }
 .bodyBD3-modelagem{
-  margin-top: 25vh;
+  margin-top: 20vh;
 }
 .bodyBD3-desenvolvimento{
-  margin-top: 25vh;
+  margin-top: 20vh;
 }
