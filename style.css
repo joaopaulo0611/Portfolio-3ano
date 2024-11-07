@@ -249,6 +249,19 @@ a.active:hover{
   width: 45vh;
   height: 20vh;
 }
+.img-canaa3{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6vh;
+  margin-top: 5vh;
+  color: black;
+  padding: 2vh;
+  padding-bottom: 10vh;
+  border-radius: 3vh;
+  width: 45vh;
+  height: 25vh;
+}
 .img-croacia{
   background-color: white;
   display: flex;
@@ -459,6 +472,12 @@ a.active:hover{
 }
 .bodyBD{
   padding-top: 2vh; 
+}
+.bodyBD-testes{
+  padding-top: 2vh;
+}
+.bodyBD2-testes{
+  padding-top: 5vh;
 }
 .bodyBD2{
   padding-top: 8vh; 
