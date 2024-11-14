@@ -212,6 +212,22 @@ a.active:hover{
   justify-content: center;
   align-items: center;
 }
+.foto-sobre2{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8%;
+  justify-content: center;
+  align-items: center;
+}
+#fotoMim2{
+  align-items: center;
+  margin-left: 96%;
+  width: 60%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 30px 3px  rgb(19, 33, 37) ;
+  margin-bottom: 5%;
+}
 #fotoMim{
   width: 60%;
   border-radius: 5px;
@@ -576,4 +592,10 @@ a.active:hover{
 }
 .bodyBD3-desenvolvimento{
   margin-top: 20vh;
+}
+.tEU{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 500;
+  color: #000; 
+  margin-left: 150%;
 }
